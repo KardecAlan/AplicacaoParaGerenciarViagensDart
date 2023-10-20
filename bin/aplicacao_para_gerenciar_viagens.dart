@@ -11,6 +11,10 @@ void main() {
 
   print(registrosVisitados);
 
+  print(registrosVisitados.contains("Belem"));
+  print(registrosVisitados.first);
+  print(registrosVisitados.last);
+
 }
 
 Set<String> registrarDestinos(String destino, Set<String> banco){
