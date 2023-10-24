@@ -4,16 +4,13 @@ void main() {
   Set<String> registrosVisitados = <String>{};
 
   registrosVisitados = registrarDestinos("Rio de Janeiro",registrosVisitados);
-  registrosVisitados = registrarDestinos("Belem",registrosVisitados);
-  registrosVisitados = registrarDestinos("Manaus",registrosVisitados);
-  registrosVisitados = registrarDestinos("Curitiba",registrosVisitados);
-  registrosVisitados = registrarDestinos("Rio de Janeiro",registrosVisitados);
 
-  print(registrosVisitados);
+  Map<String,double> registrarPrecos = {};
 
-  print(registrosVisitados.contains("Belem"));
-  print(registrosVisitados.first);
-  print(registrosVisitados.last);
+  registrarPrecos["Rio de Janeiro"] = 1200;
+
+  print(registrarPrecos);
+
 
 }
 
