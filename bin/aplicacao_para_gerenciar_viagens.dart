@@ -5,9 +5,12 @@ void main() {
 
   registrosVisitados = registrarDestinos("Rio de Janeiro",registrosVisitados);
 
-  Map<String,double> registrarPrecos = {};
+  Map<String,dynamic> registrarPrecos = {};
 
   registrarPrecos["Rio de Janeiro"] = 1200;
+  registrarPrecos["Belém"] = 1900;
+  registrarPrecos.remove("Rio de Janeiro");
+  registrarPrecos["São Paulo"] = "Caro!";
 
   print(registrarPrecos);
 
